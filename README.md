@@ -1,5 +1,10 @@
 # mecab-ko-lucene-analyzer
 
+## 중요!
+본 프로젝트는 최신버전의 ElasticSearch (2.2.1, 작성일 기준)에 가능한 한 빨리 대응하기 위해 [기존 Bitbucket에 호스팅 된 mecab-ko-lucene-analyzer 저장소](https://bitbucket.org/eunjeon/mecab-ko-lucene-analyzer)를 그대로 fork한 저장소입니다.
+[ElasticSearch 2.1.0 부터 변경된 Plugin release lifecycle](https://www.elastic.co/guide/en/elasticsearch/plugins/current/plugin-authors.html#_mandatory_elements_for_java_plugins)을 대응하기 위함이 주 목적입니다.
+이전 버전의 ElasticSearch를 사용하고 계신 경우, 위 Bitbucket 저장소에 방문하시어 Official Release를 다운로드 받으시는 것을 권장합니다.
+
 ## 소개
 
 [mecab-ko-lucene-analyzer](https://bitbucket.org/eunjeon/mecab-ko-lucene-analyzer)는 [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko), [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic)을 사용한 lucene/solr용 한국어 형태소 분석기입니다.
@@ -145,3 +150,9 @@ mecab 다른 옵션은 다음의 URL을 참조하십시오. http://taku910.githu
 ## 라이센스
 Copyright 2013 Yongwoon Lee, Yungho Yu.
 `mecab-ko-lucene-analyzer`는 아파치 라이센스 2.0에 따라 소프트웨어를 사용, 재배포 할 수 있습니다. 더 자세한 사항은 [Apache License Version 2.0](https://bitbucket.org/eunjeon/mecab-ko-lucene-analyzer/raw/master/LICENSE)을 참조하시기 바랍니다.
+
+
+## 공헌 및 감사
+본 릴리즈 패키지는 [MooYeol Prescott Lee](https://github.com/mooyoul)가 공헌하였습니다만,
+이 모든 것들은 원 저작자인 Yongwoon Lee, Yungho Yu님의 훌륭한 저작물이 아니었으면 존재하지 않았습니다.
+이 공간을 빌어 두 분께 감사의 말씀을 드립니다.
